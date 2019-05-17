@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended: false}))
 app.use('/api/v1/todos', todos)
 
 app.use((req, res) => {
-    res.status(404).send('ERROR 404 :)')
+    res.status(404).send('ERROR 404 ;)')
 })
 
 app.listen(port)

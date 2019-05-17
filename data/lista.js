@@ -10,6 +10,10 @@ const todos = [{
     "id": 3,
     "titolo": "Visitare la nonna",
     "descrizione": "Ricordarle che la guerra è finita"
+}, {
+    "id": 4,
+    "titolo": "Finire l'esame di backend",
+    "descrizione": "JavaScript è bello"
 }]
 
 exports.todos = todos

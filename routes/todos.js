@@ -55,13 +55,13 @@ router.delete('/form', (req, res) => {
 
     if (id) {
         status.code = 'success'
-        status.message = `Eliminato il ${id}° todo dalla lista`
+        status.message = `Eliminato il todo ${id} dalla lista`
     } else {
         status.code = 'error'
         status.message = 'id assente'
         status.campo = 'titolo'
     }
-    
+
     res.send(status)
 })
 
